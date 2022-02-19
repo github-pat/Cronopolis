@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url("normalize.css");
+.ie6 img {
+	width:100%;
+}
+img {position: relative; top: 10px;}
+body{
+	font-family: arial-helvetica;
+	color: white;font-size: 20px;
+}
+#back{
+	background-image: url(imge/logoNote1.jpg); background-repeat: no-repeat;
+	background-attachment: fixed; height: 100%; width: 100%; position: fixed;
+	background-position: center top; background-color: black;
+	background-size: cover;
+	-webkit-background-size: cover;	
+	-o-background-size: cover;
+	-moz-background-size: cover;
+}
+a:link {color: #FFF;text-decoration: none;}
+a:visited {color: #FFF;}
+a:hover {background-color: rgba(211,211,211,0.3);}
+a:active {color: #d2d2d2;}
+
+#contenedor{margin-top:150px;}
+	#br {float: left;height: 30px;}
+	#br2{float: right;height: 30px;}
+
+
+a{	position: relative;
+	padding: 0px 25px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+footer{ opacity: 0.5;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  top: 600px;
+  }
+p{font-size: 18px;}
+
+
+
+@media screen and (max-width: 590px){
+		#br2{float:none;}
+	}
+@media screen and (max-width: 900px){
+ 		#br{float: none;}
+ 	}
+/*			Celular
+*/
+@media screen and (max-width: 580px){
+	#back  {background-attachment: initial !important}
+	section a{
+		display:block;text-align: center;}
+		#br, #br2{float: none;height: 0px;}
+}
+@media screen and (max-width: 400px){	
+	img{width: 100%; padding: 0px 10px;box-sizing: border-box;}
+}
+/*			Tableta
+*/
+@media screen and (min-width: 590px) and (max-width: 800px){
+	body{background:url("imge/tableta.jpg") center top black  no-repeat; 
+		background-size: 110%;
+        font-size: 30px;}
+        #br2{float:none;}
+        footer {margin-top: 50%;}
+}
+/*			  TV
+*/
+ @media screen and (min-width: 1400px) and (orientation: landscape){
+	body {background-size: cover;font-size: 30px;}
+}
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
