@@ -1,4 +1,4 @@
-# website_cronopolis
+# Sitio web Cronopolis
 
 Mi primer sitio web, cuando aún era estudiante.
 En aquellos años tenía una banda de rock, a la cual le comencé a hacer una página web, no conocía 
